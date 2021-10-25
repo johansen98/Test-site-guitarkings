@@ -1,0 +1,405 @@
+@font-face {
+    font-family: "Boots And Spurs";
+    src: url("/Fonts/BootsAndSpurs.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/Fonts/Roboto-Regular.ttf");
+}
+
+
+
+body{margin:0; min-height:100vh; position:relative;}
+.navbar{
+    background-color: #202020;
+    width:100vw;
+    height:5vh;
+    margin:0;
+    padding:0.9vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+    align-items: center;
+    gap:6vw;
+    position:sticky;
+    top:0;
+} 
+.navlink{
+    list-style-type: none;
+    color:white;
+    display:flex;
+    justify-content: flex-start;
+    gap:1vw;
+}
+.n a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5vw;
+}
+.n {
+    display: inline-block;
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 2vw ;
+    font-family: "Boots And Spurs" , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.frontImage{
+    height:70vh;
+    margin:0;
+    width:100vw; 
+    background-image: url("/images/home-header.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cta-button{
+    background-color: #BB0000;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 7px;
+    border: none;
+}
+.cta-button > a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1vw;
+}
+.frontImageContent{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+    gap:1vw;
+    margin-top:10vh;
+    padding-right:8vw;
+}
+.headerText{
+    margin-right:10vw; 
+    font-size: 1.2vw;
+    font-family: "Boots And Spurs";
+}
+.infoSection {
+    background-color:white;
+    width:100vw;
+    display:grid;
+    font-family: Roboto;
+    font-size: 1.5vw;
+    align-items:center;
+    justify-content: space-around;
+    padding: 5vh 0 5vh 0;
+    grid-template-columns: auto auto;
+}
+
+.reviewSection{
+    width:100vw;
+    min-height:25vh;
+    background-color: #E8E8E8;
+    padding-bottom: 3vh;
+}
+
+.reviewSection h2{
+    padding-top:3vh;
+    font-size:2.5vw;
+    text-align: center;
+    font-family: Roboto;
+}
+.reviewGridContainer{
+    display:grid;
+    font-size: 1vw;
+    align-items:center;
+    justify-content: space-around;
+    grid-template-columns: 30vw 30vw;
+    width:100%;
+    font-family: Roboto;
+}
+
+.reviewOfGrid{
+    display:flex;
+    align-items: center;
+    gap:1vw;
+}
+
+.reviewImg{
+    height: 10vh;
+    border-radius: 50%;;
+}
+.guitarSection{
+    width:100vw;
+    padding-bottom: 15vh;
+}
+.guitarSection h2{
+    padding-top:3vh;
+    font-size:1.2vw;
+    font-family: Roboto;
+    margin-left: 9vw;
+}
+.guitarGridContainer {
+    display:flex;
+    margin:0 auto;
+    gap: 1vw;
+    justify-content: center;
+    
+}
+.guitarGridContainer img{
+    width: 20vw;
+}
+.guitarsInnerContainer{
+    display:flex;
+    justify-content: space-between;
+    font-size: 1vw;
+    align-items: center;
+}
+.guitarsInnerContainer p, h3{
+    margin:0;
+}
+.guitarsInnerContainer button{
+    background-color: #BB0000;
+    color: white;
+    min-width:5vw;
+    height:3.5vh;
+    font-size: 0.6vw;
+    border-radius: 20px;
+    margin-right:0.9vw;
+    border:none;
+    text-decoration: none;
+}
+.guitarGridContainer .sale{
+    background-color: #127300;
+}
+footer{
+    width:100vw;
+    background-color: black;
+    position:absolute;
+    bottom:0;
+    color:white;
+    text-align: center;
+    padding: 1vh;
+    font-size: 1vw;
+    
+}
+
+
+/*↓↓Contact us page↓↓*/
+.contactForm{
+    width: 40vw;
+    min-height:10vh;
+    margin:5vh auto;
+    position:relative;
+    margin-bottom: 100px;
+}
+
+.contactForm h1{
+  font-family: "Boots And Spurs";
+  font-size: 1.9vw;
+  margin:0;
+  text-align: center;
+}
+
+.contactFormInnerContainer{
+    display:grid;
+    margin:0 auto;
+    gap:1vw;
+    grid-template-columns: 1fr 1fr;
+    padding:1vw;
+}
+.contactFormGridItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+    border-radius: 8px;
+}
+.contactFormGridItem label{
+    font-family: "Roboto";
+}
+.message{
+    height:100%;
+    resize:none;
+}
+.contactFormInnerContainer input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+.cta{
+    background-color: #BB0000;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 7px;
+    color:white;
+    position:absolute;
+    left:50%;
+    margin-top:4vh;
+    transform: translate(-50%,-50%);
+    margin-bottom: px;
+}
+pop-up{
+    display:block;
+    width:80%;
+    max-width:50vw;
+    margin:13vh auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*↓↓All Guitars  page↓↓*/
+
+.allGuitarSection{
+    width:10w;
+    padding-bottom: 25vh;
+
+}
+
+.allGuitarSection h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: "Boots And Spurs";
+    font-weight: normal;
+
+}
+
+.allGuitarGridContainer{
+    margin-left: 18%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-items: center;
+    gap: 40px;
+    width: 100px;
+}
+
+.allGuitarGridContainer img{
+    width: 20vw;
+}
+
+.allGuitarsInnerContainer button{
+    background-color: #BB0000;
+    border: none;
+    color: white;
+    min-width:6vw;
+    height:3vh;
+    font-size: 0.6vw;
+    border-radius: 7px;
+    text-decoration: none;
+    justify-content: center;
+}
+.allGuitarsInnerContainer p{
+    margin: 0px
+}
+.allGuitarsInnerContainer .sale{
+    border: none;
+    background-color: #127300;
+}
+.allGuitarsInnerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*↓↓Guitar product page↓↓*/
+.productPageContainer{
+    display:grid;
+    width:70vw;
+    gap:4vw;
+    grid-template-columns: 50% 50%;
+    margin:10vh auto;
+}
+.productPageContainer > div{
+    position:relative;
+}
+
+.mainImage{
+    max-width:100%;
+}
+.smallProdImg img{
+    width:8.5vw;
+}
+.smallProdImg{
+    display:flex;
+    justify-content: space-between;
+}
+.prodInfo{
+    font-family: Roboto;
+}
+
+.prodBTN{
+    color: white;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+    bottom:0;
+}
+
+#image-viewer{
+    display:none;
+    position:fixed; 
+    z-index:1000;
+    width:100vw;
+    height:100vh;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+    left:0;
+    top:0;
+}
+
+#image-viewer .close:hover,
+#image-viewer .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#image-viewer .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modal-content{
+    display:block;
+    width:80%;
+    max-width:50vw;
+    margin:13vh auto;
+
+    animation-name: zoom;
+    animation-duration: s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to{transform:scale(1)}
+}
+
+
+
+
+
+
+
+
+
+
+/*↓↓Guitar product on sale page↓↓*/

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="../js/script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="navbar">
+        <a href="index.html" class="logo">Guitar Kings </a><br><br>
+        <ul class="navlink">
+            <li class="n"><a href="index.html">Home</li></a>
+            <li class="n"><a href="guitars.html">Guitars</li></a>
+            <li class="n"><a href="contact.html">Contact</li></a>
+        </ul>
+    </section>
+
+    <section class="productPageContainer">
+        <div>
+            <div>
+                <img oncLick="viewFullScreen(this)" id="mainPicture" class="mainImage" src="/images/product.jpg" alt="guitar">
+            </div>
+            <div class="smallProdImg" >
+                <img oncLick="toggleImage(this)" src="/images/product-specific.jpg" alt="man playing the guitar">
+                       
+                <img oncLick="toggleImage(this)" src="/images/product-specific.jpg" alt="man playing the guitar">
+            
+                <img oncLick="toggleImage(this)" src="/images/product.jpg" alt="Guitar">
+            
+                <img oncLick="toggleImage(this)" src="/images/product-specific.jpg" alt="man playing the guitar">
+            </div>
+        </div>
+        <div>
+            <h1>Adirondack Red</h1>
+            <div class="prodInfo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, magni excepturi aliquid
+                    quod alias tempora vitae at doloribus? Officia deserunt fuga earum fugit quod ducimus.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Voluptatibus, maxime!</p>
+            </div>
+            <div class="price">
+                <h3>$500</h3>
+            </div>
+            <button  class="cta-button prodBTN"><a href="contact.html">Contact Us</a></button>
+        </div>
+    </section>
+
+    <div id="image-viewer">
+        <span class="close" onclick="closeImageViewer()">&times;</span>
+        <img class="modal-content" id="full-image">
+     </div>
+    <footer>
+        <p>Copyright &copy; by Johansen & Co</p>
+    </footer>
+
+</body>
+
+</html>
