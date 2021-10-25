@@ -8,9 +8,8 @@
     src: url("/Fonts/Roboto-Regular.ttf");
 }
 
-
-
 body{margin:0; min-height:100vh; position:relative;}
+
 .navbar{
     background-color: #202020;
     width:100vw;
@@ -26,6 +25,7 @@ body{margin:0; min-height:100vh; position:relative;}
     position:sticky;
     top:0;
 } 
+
 .navlink{
     list-style-type: none;
     color:white;
@@ -33,14 +33,17 @@ body{margin:0; min-height:100vh; position:relative;}
     justify-content: flex-start;
     gap:1vw;
 }
+
 .n a{
     text-decoration: none;
     color:white;
     font-size: 1.5vw;
 }
+
 .n {
     display: inline-block;
 }
+
 .logo{
     color: white;
     text-decoration: none;
@@ -59,6 +62,7 @@ body{margin:0; min-height:100vh; position:relative;}
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .cta-button{
     background-color: #BB0000;
     width: 20vw;
@@ -66,6 +70,7 @@ body{margin:0; min-height:100vh; position:relative;}
     border-radius: 7px;
     border: none;
 }
+
 .cta-button > a{
     text-decoration: none;
     color: white;
@@ -73,6 +78,7 @@ body{margin:0; min-height:100vh; position:relative;}
     font-family: Roboto;
     font-size: 1vw;
 }
+
 .frontImageContent{
     display:flex;
     flex-direction: column;
@@ -81,11 +87,13 @@ body{margin:0; min-height:100vh; position:relative;}
     margin-top:10vh;
     padding-right:8vw;
 }
+
 .headerText{
     margin-right:10vw; 
     font-size: 1.2vw;
     font-family: "Boots And Spurs";
 }
+
 .infoSection {
     background-color:white;
     width:100vw;
@@ -111,6 +119,7 @@ body{margin:0; min-height:100vh; position:relative;}
     text-align: center;
     font-family: Roboto;
 }
+
 .reviewGridContainer{
     display:grid;
     font-size: 1vw;
@@ -131,16 +140,19 @@ body{margin:0; min-height:100vh; position:relative;}
     height: 10vh;
     border-radius: 50%;;
 }
+
 .guitarSection{
     width:100vw;
     padding-bottom: 15vh;
 }
+
 .guitarSection h2{
     padding-top:3vh;
     font-size:1.2vw;
     font-family: Roboto;
     margin-left: 9vw;
 }
+
 .guitarGridContainer {
     display:flex;
     margin:0 auto;
@@ -148,18 +160,22 @@ body{margin:0; min-height:100vh; position:relative;}
     justify-content: center;
     
 }
+
 .guitarGridContainer img{
     width: 20vw;
 }
+
 .guitarsInnerContainer{
     display:flex;
     justify-content: space-between;
     font-size: 1vw;
     align-items: center;
 }
+
 .guitarsInnerContainer p, h3{
     margin:0;
 }
+
 .guitarsInnerContainer button{
     background-color: #BB0000;
     color: white;
@@ -171,9 +187,11 @@ body{margin:0; min-height:100vh; position:relative;}
     border:none;
     text-decoration: none;
 }
+
 .guitarGridContainer .sale{
     background-color: #127300;
 }
+
 footer{
     width:100vw;
     background-color: black;
@@ -186,8 +204,8 @@ footer{
     
 }
 
-
 /*↓↓Contact us page↓↓*/
+
 .contactForm{
     width: 40vw;
     min-height:10vh;
@@ -210,19 +228,23 @@ footer{
     grid-template-columns: 1fr 1fr;
     padding:1vw;
 }
+
 .contactFormGridItem{
     display: flex;
     flex-direction: column;
     margin-top: 1vw;
     border-radius: 8px;
 }
+
 .contactFormGridItem label{
     font-family: "Roboto";
 }
+
 .message{
     height:100%;
     resize:none;
 }
+
 .contactFormInnerContainer input[type=text], select {
         width: 100%;
         padding: 12px 20px;
@@ -231,7 +253,7 @@ footer{
         border: 1px solid #ccc;
         border-radius: 4px;
         box-sizing: border-box;
-      }
+}
 
 .cta{
     background-color: #BB0000;
@@ -245,23 +267,13 @@ footer{
     transform: translate(-50%,-50%);
     margin-bottom: px;
 }
+
 pop-up{
     display:block;
     width:80%;
     max-width:50vw;
     margin:13vh auto;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*↓↓All Guitars  page↓↓*/
 
@@ -303,19 +315,23 @@ pop-up{
     text-decoration: none;
     justify-content: center;
 }
+
 .allGuitarsInnerContainer p{
     margin: 0px
 }
+
 .allGuitarsInnerContainer .sale{
     border: none;
     background-color: #127300;
 }
+
 .allGuitarsInnerContainer{
     display: flex;
     justify-content: space-between;
 }
 
 /*↓↓Guitar product page↓↓*/
+
 .productPageContainer{
     display:grid;
     width:70vw;
@@ -323,6 +339,7 @@ pop-up{
     grid-template-columns: 50% 50%;
     margin:10vh auto;
 }
+
 .productPageContainer > div{
     position:relative;
 }
@@ -330,13 +347,16 @@ pop-up{
 .mainImage{
     max-width:100%;
 }
+
 .smallProdImg img{
     width:8.5vw;
 }
+
 .smallProdImg{
     display:flex;
     justify-content: space-between;
 }
+
 .prodInfo{
     font-family: Roboto;
 }
@@ -392,14 +412,3 @@ pop-up{
     from {transform:scale(0)}
     to{transform:scale(1)}
 }
-
-
-
-
-
-
-
-
-
-
-/*↓↓Guitar product on sale page↓↓*/
